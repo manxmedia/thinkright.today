@@ -104,3 +104,27 @@
 }#toTopBtn:hover {
   background-color: #5214c0;
 }
+
+.block1{
+	background: #e8d1ae;
+}
+.block1:hover{
+	background-color: #D092FF;
+	color: #14062b;
+}
+
+.block2{
+	background: #dbbf94;
+}
+.block2:hover{
+	background-color: #D092FF;
+	color: #14062b;
+}
+
+.block3{
+	background: #cdad7d;
+}
+.block3:hover{
+	background-color: #D092FF;
+	color: #14062b;
+}
