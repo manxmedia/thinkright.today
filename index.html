@@ -9,19 +9,19 @@
 	<link href="images/favicon.png" rel="icon">
 </head>
 <body>
-
-  <div class="js-animsition animsition" id="site-wrap" data-animsition-in-class="fade-in" data-animsition-out-class="fade-out">
+	
+ <div class="js-animsition animsition" id="site-wrap" data-animsition-in-class="fade-in" data-animsition-out-class="fade-out">
 
 
     <header class="templateux-navbar" role="banner">
 
-      <div class="container"  data-aos="fade-down">
-        <div class="row">
+      
+        <div class="main-nav"> <!-- data-aos="fade-down" -->
 
           <div class="col-3 templateux-logo">
             <a href="index.html" class="animsition-link"><img src="images/logo_light.png" width="150" height="" alt="ThinkRight"/></a>
           </div>
-          <nav class="col-9 site-nav">
+          <nav class="site-nav col-9 ">
             <button class="d-block d-md-none hamburger hamburger--spin templateux-toggle templateux-toggle-light ml-auto templateux-toggle-menu" data-toggle="collapse" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
               <span class="hamburger-box">
                 <span class="hamburger-inner"></span>
@@ -30,7 +30,7 @@
 
             <ul class="sf-menu templateux-menu d-none d-md-block">
               <li>
-                <a href="index.html" class="animsition-link">Home</a>
+                <a href="index.html" class="animsition-link active">Home</a>
               </li>
               <li><a href="about.html" class="animsition-link">About</a></li>
               <li>
@@ -57,7 +57,7 @@
           
 
         </div> <!-- .row -->
-      </div> <!-- .container -->
+     
     </header> <!-- .templateux-navba -->
     
     <div class="templateux-cover" style="background-image: url(images/hero_1.jpg);">
@@ -67,7 +67,7 @@
           <div class="col-lg-12 order-lg-1">
             <h1 class="heading mb-3 text-creamy" data-aos="fade-up">Think Right Coaching Your Partners in <strong>Executive and Leadership Development Coaching</strong></h1>
             <p class="lead mb-5 text-white" data-aos="fade-up"  data-aos-delay="100">Achieve self-mastery and radical performance with ThinkRight personalised, executive, and leadership development one-on-one/team/business coaching.</p>
-            <p data-aos="fade-up" data-aos-delay="200"><a href="contact.html" class="btn-primary py-3 px-4 mr-3">Get In Touch</a> <a href="about.html" class="btn-primary py-3 px-4 mr-3">Learn More</a></p>
+            <p data-aos="fade-up" data-aos-delay="200"><a href="" class="btn-primary py-3 px-4 mr-3">Get In Touch</a> <a href="about.html" class="btn-primary py-3 px-4 mr-3">Learn More</a></p>
           </div>
           
         </div>
@@ -697,15 +697,14 @@
        </div>
        </div>
 	<div class="col-6 col-sm-6 col-md-6 col-lg-4">
-          <div class="staff" style="background-image: url(images/person_1.jpg);">
-            <a href="#" class="desc">
-              <h3>Betty Mlalazi</h3>
-              <span>Founder, Professional Certified Coach (ICF)</span>
-              <div class="parag">
-                <p></p>
-              </div>
-            </a>
-          </div>
+          <div class="staff" style="background-image: url(images/person_3.jpg);">
+              <a href="#" class="desc">
+                <h3>Lebo Malefane</h3>
+                <span>Team Coach</span>
+                <div class="parag">
+                </div>
+              </a>
+            </div>
         </div>  
 	   
       </div>
@@ -977,15 +976,14 @@
        </div>
        </div>
         <div class="col-6 col-sm-6 col-md-6 col-lg-4">
-          <div class="staff" style="background-image: url(images/person_1.jpg);">
-            <a href="#" class="desc">
-              <h3>Betty Mlalazi</h3>
-              <span>Founder, Professional Certified Coach (ICF)</span>
-              <div class="parag">
-                <p></p>
-              </div>
-            </a>
-          </div>
+          <div class="staff" style="background-image: url(images/person_2.jpg);">
+              <a href="#" class="desc">
+                <h3>Ellena Smith</h3>
+                <span>Life Coach</span>
+                <div class="parag">
+                 </div>
+              </a>
+            </div>
         </div>
 
         
@@ -1115,6 +1113,30 @@
 
 <script src="js/scripts-all.js"></script>
 <script src="js/main.js"></script>
+
+
+<button onclick="topFunction()" id="toTopBtn" title="Go to top"><img width="20px" src="images/flaticon/svg/0010-top.svg" alt="Image" class="img-fluid"></button>
+<script>
+// Get the button
+let mybutton = document.getElementById("toTopBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 
 </body>
 </html>
